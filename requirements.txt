@@ -1,0 +1,10 @@
+streamlit
+pandas
+rdkit
+torch
+torchvision
+torchaudio
+tqdm
+numpy
+deepchem
+--extra-index-url https://download.pytorch.org/whl/cpu
