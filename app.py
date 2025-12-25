@@ -7,6 +7,7 @@ from tqdm import tqdm
 from rdkit import Chem
 from rdkit.Chem import Draw
 from io import BytesIO
+import os
 
 from model.xlstm_model import xLSTMModel
 from generation.sampler import generate_smiles
