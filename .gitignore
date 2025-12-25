@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit cache
+.streamlit/
+
+# Large model files (don't commit big .pth files)
+*.pth
+checkpoint/
+
+# Other common junk
+.DS_Store
+Thumbs.db
+.env
